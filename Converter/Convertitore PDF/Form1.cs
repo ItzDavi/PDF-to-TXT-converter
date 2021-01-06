@@ -33,8 +33,8 @@ namespace Convertitore_PDF
 
             if(openDialog.ShowDialog() == DialogResult.OK)
             {
-                string percorso = openDialog.FileName.ToString();
-                textBox1.Text = percorso;
+                string path = openDialog.FileName.ToString();
+                textBox1.Text = path;
             }
         }
 
